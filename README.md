@@ -14,9 +14,9 @@ This repository aims to outline the necessary changes to enable ambient mode in 
 
 Given the Wear OS environment's objective to conserve power, I speculated that the issue was due to the app entering a state of inactivity, causing the system to freeze the app to save power. I then referred to the Android documentation to learn how to enable ambient mode on a Wear OS device and discovered this solution.
 
-Look at the project diff here: [Diff]()
+Look at the project diff here: [Diff](https://github.com/CorbinIvon/flutter_ambient_mode_files/commit/c0423727527a84c3432c34d875fd39a657afc9c5)
 
-Please refer to [AndroidManifest.xml](flutter_ambient_mode_files/android/app/src/main/AndroidManifest.xml), [build.gradle](flutter_ambient_mode_files/android/app/build.gradle), and [MainActivity.kt](flutter_ambient_mode_files/android/app/src/main/kotlin/com/example/flutter_ambient_mode_files/MainActivity.kt) for the necessary changes.
+Please refer to [AndroidManifest.xml](https://github.com/CorbinIvon/flutter_ambient_mode_files/blob/main/android/app/src/main/AndroidManifest.xml), [build.gradle](https://github.com/CorbinIvon/flutter_ambient_mode_files/blob/main/android/app/build.gradle), and [MainActivity.kt](https://github.com/CorbinIvon/flutter_ambient_mode_files/blob/main/android/app/src/main/kotlin/com/example/flutter_ambient_mode_files/MainActivity.kt) for the necessary changes.
 
 ## Useful Sources
 
